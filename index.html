@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main_container">
+        <h1 class="p-2 text-center">Rock Paper Scissors Game</h1>
+        <p class="text-center">Choose your move:</p>
+        <div class="buttons d-flex justify-content-center align-items-center gap-3">
+            <button class="btn btn-danger" id="rock">&#x1F44A;</button>
+            <button class="btn btn-primary" id="paper">&#x1f590;</button>
+            <button class="btn btn-success" id="scissors">&#x270c;</button>
+        </div>
+
+        <div class="result text-center pt-3">
+            <p id="response">You Won!</p>
+            <p>Your score: <span class="text-primary" id="user_score">0</span> Computer's score: <span class="text-danger" id="computer_score">0</span></p>
+        </div>
+    </div>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
